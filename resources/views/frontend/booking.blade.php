@@ -93,7 +93,7 @@
                       </div>
                       <!-- /.row-->
                       <div class="box-footer d-flex justify-content-between"><a href="{{ route('frontend.resort.detail', ['resort' => $resort->id]) }}" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i>Resort Details</a>
-                        <button id="confirmBtn" type="submit" class="btn btn-primary" onclick="return confirm('Email is sent')">Confrim</button>
+                        <button id="confirmBtn" type="submit" class="btn btn-primary" onclick="return confirm('Email has already sent')">Confrim</button>
                       </div>
                     </div>
                    

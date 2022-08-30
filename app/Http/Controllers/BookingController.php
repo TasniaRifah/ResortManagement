@@ -34,8 +34,8 @@ class BookingController extends Controller
             $booking->save();
             if($booking->save()){
                 $adminMessage = [
-                    'title' => 'Mail from `Rifah Resort`',
-                    'body' => `Booking request from $customer_name`,
+                    'title' => 'Mail from Rifah Resort',
+                    'body' => 'Booking request from '.$customer_name
                 ];
                 $customerMessage = [
                     'title' => 'Mail from `Rifah Resort`',
