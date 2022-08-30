@@ -9,8 +9,8 @@
                                 aria-hidden="true">×</span></button>
                     </div>
                     <div class="modal-body">
-                        <form method="POST" action=""> 
-                            {{-- {{ route('login') }} --}}
+                        <form method="POST" action="{{ route('login') }}"> 
+                            {{--  --}}
                             @csrf
                             <div class="form-group">
                                 <input id="email-model" type="email" name="email" placeholder="email" :value="old('email')"

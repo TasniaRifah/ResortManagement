@@ -22,7 +22,7 @@
                         @endauth
 
                         @guest 
-                            <li class="list-inline-item"><a href="#" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                            <li class="list-inline-item"><a href="{{ route('login') }}" data-toggle="modal" data-target="#login-modal">Login</a></li>
                             <li class="list-inline-item"><a href="{{ route('register') }}">Register</a></li>
                         @endguest
 
